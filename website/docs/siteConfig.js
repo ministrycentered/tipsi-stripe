@@ -17,7 +17,7 @@ const users = [
 
 const siteConfig = {
   title: 'tipsi-stripe',
-  tagline: 'A complete solution for payments on React-Native',
+  tagline: 'Stripe support for React-Native',
   url: 'https://tipsi.github.io',
   baseUrl: '/tipsi-stripe/',
   projectName: 'tipsi-stripe',
@@ -38,6 +38,10 @@ const siteConfig = {
   highlight: { theme: 'default' },
   scripts: ['https://buttons.github.io/buttons.js'],
   repoUrl: 'https://github.com/tipsi/tipsi-stripe',
+  algolia: {
+    apiKey: '3f8ac9b9932eef475114a7db0665311f',
+    indexName: 'tipsi-stripe',
+  }
 }
 
 module.exports = siteConfig
